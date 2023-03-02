@@ -42,7 +42,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--device_id', type=int, default=0)
     parser.add_argument('--result_dir', type=str, default='log')
-    parser.add_argument('--weight_dir', type=str, default='./')
+    parser.add_argument('--weight_dir', type=str, default='log')
     parser.add_argument('--image_size', type=int, default=16)
     parser.add_argument('--lr', type=float, default=0.0001)
     parser.add_argument('--mul_lr_dis', type=float, default=4)
